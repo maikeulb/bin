@@ -5,14 +5,9 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 MANPREFIX	git-secrets/Makefile	/^MANPREFIX ?= "${PREFIX}\/share\/man\/man1"$/;"	m
-Numeric	git-wtf	/^class Numeric; def pluralize s; "#{to_s} #{s}" + (self != 1 ? "s" : "") end end$/;"	c
 PREFIX	git-secrets/Makefile	/^PREFIX ?= \/usr\/local$/;"	m
-PRINT	git-forest	/^sub PRINT$/;"	s
-ReverseOutput	git-forest	/^package ReverseOutput;$/;"	p
 StartupAnalyzer	vim-profiler.py	/^class StartupAnalyzer(object):$/;"	c
 StartupData	vim-profiler.py	/^class StartupData(object):$/;"	c
-TIEHANDLE	git-forest	/^sub TIEHANDLE$/;"	s
-UNTIE	git-forest	/^sub UNTIE$/;"	s
 __clean_log	vim-profiler.py	/^    def __clean_log(self):$/;"	m	class:StartupData	file:
 __del__	vim-profiler.py	/^    def __del__(self):$/;"	m	class:StartupData	file:
 __fzffs_browser	fzf-fs	/^__fzffs_browser ()$/;"	f
@@ -55,7 +50,6 @@ abs_dirname	git-secrets/test/bats/bin/bats	/^abs_dirname() {$/;"	f
 abs_dirname	git-secrets/test/bats/libexec/bats	/^abs_dirname() {$/;"	f
 add_config	git-secrets/git-secrets	/^add_config() {$/;"	f
 advance	git-secrets/test/bats/libexec/bats-format-tap-stream	/^advance() {$/;"	f
-ahead_behind_string	git-wtf	/^def ahead_behind_string ahead, behind$/;"	f	class:red.green.yellow.cyan.grey.purple.commits_between
 assert_option_for_command	git-secrets/git-secrets	/^assert_option_for_command() {$/;"	f
 average_data	vim-profiler.py	/^    def average_data(self):$/;"	m	class:StartupAnalyzer
 aws_provider	git-secrets/git-secrets	/^aws_provider() {$/;"	f
@@ -84,72 +78,45 @@ buffer	git-secrets/test/bats/libexec/bats-format-tap-stream	/^buffer() {$/;"	f
 clear_color	git-secrets/test/bats/libexec/bats-format-tap-stream	/^clear_color() {$/;"	f
 clear_to_end_of_line	git-secrets/test/bats/libexec/bats-format-tap-stream	/^clear_to_end_of_line() {$/;"	f
 commit_msg_hook	git-secrets/git-secrets	/^commit_msg_hook() {$/;"	f
-commit_node_label	git-plotrepo	/^def commit_node_label(commit)$/;"	f
-commits_between	git-wtf	/^def commits_between from, to$/;"	f	class:red.green.yellow.cyan.grey.purple
-cyan	git-wtf	/^def cyan s; $color ? "\\033[36m#{s}\\033[0m" : s end$/;"	f	class:red.green.yellow
 delete_repo	git-secrets/test/test_helper.bash	/^delete_repo() {$/;"	f
-draw_branch_heads	git-plotrepo	/^def draw_branch_heads(repo)$/;"	f
-draw_head	git-plotrepo	/^def draw_head(repo)$/;"	f
 encode_name	git-secrets/test/bats/libexec/bats-preprocess	/^encode_name() {$/;"	f
 expand_path	git-secrets/test/bats/bin/bats	/^expand_path() {$/;"	f
 expand_path	git-secrets/test/bats/libexec/bats	/^expand_path() {$/;"	f
 export	vim-profiler.py	/^    def export(self, output_filename="result.csv"):$/;"	m	class:StartupAnalyzer
-fail	git-rook	/^fail() {$/;"	f
 fail	git-secrets/test/bats/libexec/bats-format-tap-stream	/^fail() {$/;"	f
-find_file	git-wtf	/^def find_file fn$/;"	f	class:Numeric
 finish	git-secrets/test/bats/libexec/bats-format-tap-stream	/^finish() {$/;"	f
 flags_func	fzf-fs-init	/^flags_func ()$/;"	f
 flush	git-secrets/test/bats/libexec/bats-format-tap-stream	/^flush() {$/;"	f
 generate	vim-profiler.py	/^    def generate(self, check_system=False):$/;"	m	class:StartupData
 get_exe	vim-profiler.py	/^def get_exe(cmd):$/;"	f
-get_line_block	git-forest	/^sub get_line_block$/;"	s
-get_refs	git-forest	/^sub get_refs$/;"	s
 git_grep	git-secrets/git-secrets	/^git_grep() {$/;"	f
-git_repo_root	git-rook	/^git_repo_root() {$/;"	f
 go_to_column	git-secrets/test/bats/libexec/bats-format-tap-stream	/^go_to_column() {$/;"	f
-green	git-wtf	/^def green s; $color ? "\\033[32m#{s}\\033[0m" : s end$/;"	f	class:red
-grey	git-wtf	/^def grey s; $color ? "\\033[1;30m#{s}\\033[0m" : s end$/;"	f	class:red.green.yellow.cyan
 help	git-secrets/test/bats/bin/bats	/^help() {$/;"	f
 help	git-secrets/test/bats/libexec/bats	/^help() {$/;"	f
-install_all_hooks	git-rook	/^install_all_hooks() {$/;"	f
 install_all_hooks	git-secrets/git-secrets	/^install_all_hooks() {$/;"	f
-install_hook	git-rook	/^install_hook() {$/;"	f
 install_hook	git-secrets/git-secrets	/^install_hook() {$/;"	f
-is_hook_skipped	git-rook	/^is_hook_skipped() {$/;"	f
 is_subdir	vim-profiler.py	/^def is_subdir(paths, subdir):$/;"	f
 load	git-secrets/test/bats/libexec/bats-exec-test	/^load() {$/;"	f
 load_allowed	git-secrets/git-secrets	/^load_allowed() {$/;"	f
 load_combined_patterns	git-secrets/git-secrets	/^load_combined_patterns() {$/;"	f
 load_patterns	git-secrets/git-secrets	/^load_patterns() {$/;"	f
 log	git-secrets/test/bats/libexec/bats-format-tap-stream	/^log() {$/;"	f
-main	git-forest	/^sub main$/;"	s
 main	vim-profiler.py	/^def main():$/;"	f
-parse_options	git-rook	/^parse_options() {$/;"	f
 pass	git-secrets/test/bats/libexec/bats-format-tap-stream	/^pass() {$/;"	f
 plot	vim-profiler.py	/^    def plot(self):$/;"	m	class:StartupAnalyzer
-plot_tags	git-plotrepo	/^def plot_tags(repo)$/;"	f
-plot_tree	git-plotrepo	/^def plot_tree (commit)$/;"	f
 plural	git-secrets/test/bats/libexec/bats-format-tap-stream	/^plural() {$/;"	f
 pre_commit_hook	git-secrets/git-secrets	/^pre_commit_hook() {$/;"	f
 prepare_commit_msg_hook	git-secrets/git-secrets	/^prepare_commit_msg_hook() {$/;"	f
 print_summary	vim-profiler.py	/^    def print_summary(self, n):$/;"	m	class:StartupAnalyzer
 printf_with_truncation	git-secrets/test/bats/libexec/bats-format-tap-stream	/^printf_with_truncation() {$/;"	f
-process	git-forest	/^sub process$/;"	s
 process_data	vim-profiler.py	/^    def process_data(self):$/;"	m	class:StartupAnalyzer
 process_output	git-secrets/git-secrets	/^process_output() {$/;"	f
-purple	git-wtf	/^def purple s; $color ? "\\033[35m#{s}\\033[0m" : s end$/;"	f	class:red.green.yellow.cyan.grey
-red	git-wtf	/^def red s; $color ? "\\033[31m#{s}\\033[0m" : s end$/;"	f
-ref_print	git-forest	/^sub ref_print$/;"	s
 register_aws	git-secrets/git-secrets	/^register_aws() {$/;"	f
 regular_grep	git-secrets/git-secrets	/^regular_grep() {$/;"	f
-remove_trailing_blanks	git-forest	/^sub remove_trailing_blanks$/;"	s
 repo_run	git-secrets/test/test_helper.bash	/^repo_run() {$/;"	f
-resolve_directory	git-rook	/^resolve_directory() {$/;"	f
 resolve_link	git-secrets/test/bats/bin/bats	/^resolve_link() {$/;"	f
 resolve_link	git-secrets/test/bats/libexec/bats	/^resolve_link() {$/;"	f
-round_down2	git-forest	/^sub round_down2$/;"	s
 run	git-secrets/test/bats/libexec/bats-exec-test	/^run() {$/;"	f
-run_hook	git-rook	/^run_hook() {$/;"	f
 scan	git-secrets/git-secrets	/^scan() {$/;"	f
 scan_history	git-secrets/git-secrets	/^scan_history() {$/;"	f
 scan_with_fn_or_die	git-secrets/git-secrets	/^scan_with_fn_or_die() {$/;"	f
@@ -162,14 +129,10 @@ setup_bad_repo_with_hash	git-secrets/test/test_helper.bash	/^setup_bad_repo_with
 setup_bad_repo_with_spaces	git-secrets/test/test_helper.bash	/^setup_bad_repo_with_spaces() {$/;"	f
 setup_good_repo	git-secrets/test/test_helper.bash	/^setup_good_repo() {$/;"	f
 setup_repo	git-secrets/test/test_helper.bash	/^setup_repo() {$/;"	f
-show	git-wtf	/^def show b$/;"	f	class:red.green.yellow.cyan.grey
-show_commits	git-wtf	/^def show_commits commits, prefix="    "$/;"	f	class:red.green.yellow.cyan.grey.purple.commits_between
-show_relations	git-wtf	/^def show_relations b, all_branches$/;"	f	class:red.green.yellow.cyan
 skip	git-secrets/test/bats/libexec/bats-exec-test	/^skip() {$/;"	f
 skip	git-secrets/test/bats/libexec/bats-format-tap-stream	/^skip() {$/;"	f
 stdev	vim-profiler.py	/^def stdev(arr):$/;"	f
 stdev_data	vim-profiler.py	/^    def stdev_data(self):$/;"	m	class:StartupAnalyzer
-str_expand	git-forest	/^sub str_expand$/;"	s
 summary	git-secrets/test/bats/libexec/bats-format-tap-stream	/^summary() {$/;"	f
 teardown	git-secrets/test/bats/libexec/bats-exec-test	/^teardown() {$/;"	f
 teardown	git-secrets/test/test_helper.bash	/^teardown() {$/;"	f
@@ -179,15 +142,3 @@ usage	git-secrets/test/bats/bin/bats	/^usage() {$/;"	f
 usage	git-secrets/test/bats/libexec/bats	/^usage() {$/;"	f
 version	git-secrets/test/bats/bin/bats	/^version() {$/;"	f
 version	git-secrets/test/bats/libexec/bats	/^version() {$/;"	f
-vine_branch	git-forest	/^sub vine_branch$/;"	s
-vine_commit	git-forest	/^sub vine_commit$/;"	s
-vine_merge	git-forest	/^sub vine_merge$/;"	s
-vis_commit	git-forest	/^sub vis_commit$/;"	s
-vis_fan	git-forest	/^sub vis_fan$/;"	s
-vis_fan2L	git-forest	/^sub vis_fan2L$/;"	s
-vis_fan2R	git-forest	/^sub vis_fan2R$/;"	s
-vis_fan3	git-forest	/^sub vis_fan3$/;"	s
-vis_post	git-forest	/^sub vis_post$/;"	s
-vis_xfrm	git-forest	/^sub vis_xfrm$/;"	s
-widget	git-wtf	/^def widget merged_in, remote_only=false, local_only=false, local_only_merge=false$/;"	f	class:red.green.yellow.cyan.grey.purple.commits_between
-yellow	git-wtf	/^def yellow s; $color ? "\\033[33m#{s}\\033[0m" : s end$/;"	f	class:red.green
